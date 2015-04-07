@@ -19,7 +19,8 @@
 											if they get too long. You can also remove the <p> entirely if you don't
 											need a subtitle.
 										-->
-										<h2>Titulo</h2>
+										<h2>Arte y cultura contemporánea</h2>
+										<p>Equipo 4 </p>
 										</header>
 								<!--	<div class="info">
 										
@@ -62,9 +63,9 @@
 									</p>
 									</article>
 									
-									<br>
+									<br><!--
 									<p> <strong>Obras de arte</strong></p>
-									<a href="#" class="image featured"><img src="images/Bauhaus/bau1.jpg" alt="" /></a>
+									<a href="#" class="image featured"><img src="images//bau1.jpg" alt="" /></a>
 									<p style=" Text-align: justify;">
 										<Strong>Obra: </Strong>
 										<br><Strong>Autor: </Strong> 
@@ -72,21 +73,21 @@
 									</p>
 									
 
-									<a href="#" class="image featured"><img src="images/Bauhaus/bau2.jpg" alt="" /></a>
+									<a href="#" class="image featured"><img src="images//bau2.jpg" alt="" /></a>
 									<p style=" text-align: justify;">
 										<Strong>Obra: </Strong> 
 										<br> <Strong>Autor: </Strong>
 
 									</p>
 
-									<a href="#" class="image featured"><img src="images/Bauhaus/bau3.jpg" alt="" /></a>
+									<a href="#" class="image featured"><img src="images//bau3.jpg" alt="" /></a>
 									<p style=" text-align: justify;">
 										<Strong>Obra: </Strong> 
 										<br> <Strong>Autor: </Strong>
 
 									</p>
 
-									<a href="#" class="image featured"><img src="images/Bauhaus/bau4.jpg" alt="" /></a>
+									<a href="#" class="image featured"><img src="images//bau4.jpg" alt="" /></a>
 									<p style=" text-align: justify;">
 										<Strong>Obra: </Strong> 
 										<br> <Strong>Autor: </Strong> 
@@ -110,7 +111,7 @@
 									<a href=""> </a>
 
 									</p>
-									
+									-->
 							
 									</div>
 									</div>
