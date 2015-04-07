@@ -124,7 +124,16 @@ Los minimalistas pretenden que sus obras sean como los números, moral y física
 									</p>
 									
 
-
+									<br>
+									<h3>Videos</h3>
+									<br>
+									<div class="video-container">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/V5BiVuMDtWU" frameborder="0" allowfullscreen></iframe>
+									</div>
+									<div class="video-container">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/KiRUL61y1Kg" frameborder="0" allowfullscreen></iframe>
+									</div>
+									
 									<h3> Referencias:</h3>
 									<p style=" text-align: justify;">
 									

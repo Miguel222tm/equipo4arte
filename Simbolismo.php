@@ -107,7 +107,15 @@
 										<br> <Strong>Autor: </Strong> William Adolphe Bouguereau
 									</p>
 									
-
+									<br>
+									<h3>Videos</h3>
+									<br>
+									<div class="video-container">
+									<iframe width="420" height="315" src="https://www.youtube.com/embed/LnGP7IaI4x8" frameborder="0" allowfullscreen></iframe>
+									</div>
+									<div class="video-container">
+									<iframe width="420" height="315" src="https://www.youtube.com/embed/E6pPEFIc_1k" frameborder="0" allowfullscreen></iframe>
+									</div>
 									<br>
 									<h3> Referencias:</h3>
 									<p style=" text-align: justify;">

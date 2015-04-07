@@ -14,31 +14,31 @@
 						<!-- Nav -->
 							<nav id="nav">
 								<ul>
-									<li><a href="expresionismoabstracto.php"> Expresionismo Abstracto</a></li>
-									<li><a href="muralismomexicano.php">Muralismo Mexicano</a></li>
-									<li><a href="Bauhaus.php">Bauhaus</a></li>
-									<li><a href="Stijl.php">Stijl</a></li>
-									<li><a href="Deconstructivismo.php"> Deconstructivismo</a></li>
-									<li><a href="Hiperrealismo.php">Hiperrealismo</a></li>
-									<li><a href="Minimalismo.php">Minimalismo</a></li>
-									<li><a href="Surrealismo.php">Surrealismo</a></li>
-									<li><a href="Happening.php ">Happening </a></li>
-									<li><a href="popart.php">Pop Art</a></li>
-									<li><a href="Constructivismo.php">Constructivismo</a></li>
 									<li><a href="ArtNouveau.php">Art Nouveau</a></li>
-									<li><a href="Dadaismo.php">Dadaísmo</a></li>
-									<LI><a href="Futurismo.php">Futurismo</a></LI>
+									<li><a href="Bauhaus.php">Bauhaus</a></li>
+									<li><a href="Constructivismo.php">Constructivismo</a></li>
 									<li><a href="Cubismo.php"> Cubismo</a></li>
+									<li><a href="Dadaismo.php">Dadaísmo</a></li>
+									<li><a href="Stijl.php">De Stijl</a></li>
+									<li><a href="Deconstructivismo.php"> Deconstructivismo</a></li>
+									<li><a href="expresionismoabstracto.php"> Expresionismo Abstracto</a></li>
+									<li><a href="Fauvismo.php">Fauvismo</a></li>
+									<LI><a href="Futurismo.php">Futurismo</a></LI>
+									<li><a href="Happening.php ">Happening </a></li>
+									<li><a href="Hiperrealismo.php">Hiperrealismo</a></li>
+									<li><a href="Impresionismo.php">Impresionismo</a></li>
+									<li><a href="Jineteazul.php"> Jinete azul</a></li>
+									<li><a href="Minimalismo.php">Minimalismo</a></li>
+									<li><a href="muralismomexicano.php">Muralismo Mexicano</a></li>
+									<li><a href="Neoclasicismo.php">Neoclasicismo</a></li>
+									<li><a href="popart.php">Pop Art</a></li>
 									<li><a href="Postimpresionismo.php">Post impresionismo</a></li>
 									<li><a href="Prerafaelismo.php">Prerafaelismo</a></li>
-									<li><a href="Jineteazul.php"> Jinete azul</a></li>
-									<li><a href="Impresionismo.php">Impresionismo</a></li>
-									<li><a href="Fauvismo.php">Fauvismo</a></li>
-									<li><a href="Simbolismo.php">Simbolismo</a></li>
 									<li><a href="Realismo.php">Realismo </a></li>
-									<li><a href="Neoclasicismo.php">Neoclasicismo</a></li>
+									<li><a href="Surrealismo.php">Surrealismo</a></li>
+									<li><a href="Simbolismo.php">Simbolismo</a></li>
 									<li><a href="Romanticismo.php">Romanticismo</a></li>
-
+				
 								</ul>
 							</nav>
 

@@ -88,7 +88,15 @@
 										
 									 <Strong>Autor: </Strong> Toulouse-Lautrec 
 
-							
+									<br>
+									<h3>Videos</h3>
+									<br>
+									<div class="video-container">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/P4luPnObQYo" frameborder="0" allowfullscreen></iframe>
+									</div>
+									<div class="video-container">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/eaIwdAErlKc" frameborder="0" allowfullscreen></iframe>
+									</div>
 									
 
 									 <br><br><br>

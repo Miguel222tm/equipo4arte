@@ -102,7 +102,16 @@
 
 									</p>
 									
-
+									<br>
+									<h3>Videos</h3>
+									<br>
+									<div class="video-container">
+									<iframe width="420" height="315" src="https://www.youtube.com/embed/1iOnW58AdkU" frameborder="0" allowfullscreen></iframe>
+									</div>
+									<div class="video-container">
+									<iframe width="560" height="315" src="https://www.youtube.com/embed/xtMgLQbqo-c" frameborder="0" allowfullscreen></iframe>
+									</div>
+							
 
 									<h3> Referencias:</h3>
 									<p style=" text-align: justify;">

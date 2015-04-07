@@ -42,9 +42,7 @@
 											<li><a href="#" class="icon fa-facebook">128</a></li>
 										</ul>-->
 									</div>
-									<p style=" text-align: justify;">
-									
-									</p>
+								
 										
 									<p style=" text-align: justify;">
 									
@@ -112,6 +110,15 @@
 
 									</p>
 									-->
+									<br>
+									<h3>Videos</h3>
+									<br>
+									<div class="video-container">
+									
+									</div>
+									<div class="video-container">
+									
+									</div>
 							
 									</div>
 									</div>

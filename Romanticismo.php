@@ -117,7 +117,15 @@
 
 									</p>
 									
-
+									<br>
+									<h3>Videos</h3>
+									<br>
+									<div class="video-container">
+									<iframe width="420" height="315" src="https://www.youtube.com/embed/AfHHSW4RBoc" frameborder="0" allowfullscreen></iframe>
+									</div>
+									<div class="video-container">
+									<iframe width="420" height="315" src="https://www.youtube.com/embed/VwBFj0f541w" frameborder="0" allowfullscreen></iframe>
+									</div>
 									<br>
 									<h3> Referencias:</h3>
 									<p style=" text-align: justify;">
