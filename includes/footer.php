@@ -2,18 +2,19 @@
 					<div id="sidebar">
 					
 						<!-- Logo -->
-							<h1 id="logo"><a href="#">Equipo 4</a></h1>
+							<h1 id="logo"><a href="index.php">Equipo 4</a></h1>
 							<!-- Text -->
 							<section class="box text-style1">
 								<div class="inner">
 									<p>
-										<strong>Sube tu obra de arte:</strong> solamente necesitas darle click al siguiente enlace para subir tu obra de arte. <br> <a href="#">SUBIR OBRA DE ARTE!</a> 
+										<strong>Sube tu obra de arte:</strong> solamente necesitas darle click al siguiente enlace para subir tu obra de arte. <br> <a href="subirobra.php">SUBIR OBRA DE ARTE!</a> 
 									</p>
 								</div>
 							</section>
 						<!-- Nav -->
 							<nav id="nav">
 								<ul>
+									<LI><a href="index.php"> <strong>Inicio</strong></a></LI>
 									<li><a href="ArtNouveau.php">Art Nouveau</a></li>
 									<li><a href="Bauhaus.php">Bauhaus</a></li>
 									<li><a href="Constructivismo.php">Constructivismo</a></li>
@@ -142,6 +143,16 @@
 						<!-- Copyright -->
 							<ul id="copyright">
 								<li>&copy; Arte y cultura contemporánea.</li><li>Equipo 4.</li>
+								<li>Juan Miguel Treviño Morales	515783
+</li>
+<li>David Jaser Guerrero Aguilar			513624</li>
+<li>
+Arturo Daniel González Cañón			513641</li><li>
+José Antonio Torres Villasana			513843</li><li>
+Federico Leobardo Castro Guerrero		513791</li><li>
+Daniel Gallardo Carrillo				511807</li><li>
+
+</li>
 							</ul>
 
 					</div>

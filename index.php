@@ -1,6 +1,26 @@
 <?php
  require ("includes/header.php");
+ require ("includes/conn.php");
 
+
+
+    $query="SELECT linkObra FROM obras LIMIT 10"; // aqui verificamos si el alumno ya ha aplicado a dicha vacante , para no mostrar las ya aplicadas
+                              if(!($stmt= $conn-> prepare($query))){
+                                   echo "Prepare failed: (" . $conn->errno . ") " . $conn->error;
+                              }
+                                if (!$stmt->execute()) {
+                                   echo "Execute failed: (" . $stmt->errno . ") " . $stmt->error;
+                              }
+                                if (!$stmt->bind_result($linkObra)){  echo "Binding results failed: (" . $stmt->errno . ") " . $stmt->error;
+                              }
+                        /* fetch values */
+                          $iv= array();
+                              $i=0;
+                                    while (mysqli_stmt_fetch($stmt)) {
+                                            $iv[]=$linkObra;
+                                                $i+=1;
+                                              //  echo $linkObra;
+                                    }
 ?>
 	<body class="left-sidebar">
 
@@ -12,6 +32,7 @@
 						<div class="inner">
 					
 							<!-- Post -->
+								
 								<article class="box post post-excerpt">
 									<header>
 										<!--
@@ -42,87 +63,32 @@
 											<li><a href="#" class="icon fa-facebook">128</a></li>
 										</ul>-->
 									</div>
-								
-										
-									<p style=" text-align: justify;">
-									
-									</p>
-									<p style=" text-align: justify;">
-									
-									</p>
-									<p style=" text-align: justify;">
-									
-									</p>
-									<p style=" text-align: justify;">
-									
-									</p>
-									<p style=" text-align: justify;">
-									
-									</p>
 									</article>
+
+							<h3>Últimas obras de arte subidas por alumnos:</h3>
 									
-									<br><!--
-									<p> <strong>Obras de arte</strong></p>
-									<a href="#" class="image featured"><img src="images//bau1.jpg" alt="" /></a>
-									<p style=" Text-align: justify;">
-										<Strong>Obra: </Strong>
-										<br><Strong>Autor: </Strong> 
+		<div class="imgultimas">
+		<?php  
+		foreach ($iv as $key => $value) {
+		echo '	<img class="squared" src="'.$value.'">';
+		}
+		?> 	
+		</div>	
+				
+</div>
+						
+</div>
+</div>
 
-									</p>
-									
-
-									<a href="#" class="image featured"><img src="images//bau2.jpg" alt="" /></a>
-									<p style=" text-align: justify;">
-										<Strong>Obra: </Strong> 
-										<br> <Strong>Autor: </Strong>
-
-									</p>
-
-									<a href="#" class="image featured"><img src="images//bau3.jpg" alt="" /></a>
-									<p style=" text-align: justify;">
-										<Strong>Obra: </Strong> 
-										<br> <Strong>Autor: </Strong>
-
-									</p>
-
-									<a href="#" class="image featured"><img src="images//bau4.jpg" alt="" /></a>
-									<p style=" text-align: justify;">
-										<Strong>Obra: </Strong> 
-										<br> <Strong>Autor: </Strong> 
-
-									</p>
+								
 									
 
-									<br>
-									<h3> Referencias:</h3>
-									<p style=" text-align: justify;">
-									
-									<a href="">
-										
-									</a>
-									<br>
 
 									
-									<a href=""> </a>
-									<br>
 
-									<a href=""> </a>
 
-									</p>
-									-->
-									<br>
-									<h3>Videos</h3>
-									<br>
-									<div class="video-container">
-									
-									</div>
-									<div class="video-container">
-									
-									</div>
-							
-									</div>
-									</div>
-									</div>
+						
+					
 			
 							<?php
 							require ("includes/footer.php");

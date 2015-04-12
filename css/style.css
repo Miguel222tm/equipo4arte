@@ -16,6 +16,26 @@
     padding-bottom: 56.25%;
     padding-top: 30px; height: 0; overflow: hidden;
 }
+
+
+.imgultimas{
+  width: 80%;
+}
+.squared{
+    
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+    border-width: 5px;
+}
+.squared:last-child{
+  margin-right:0;
+}
+.squared:before{
+    content:"";
+    display: inline-block;
+    padding-top: 1%;
+}
  
 .video-container iframe,
 .video-container object,
