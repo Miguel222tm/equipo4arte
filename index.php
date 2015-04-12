@@ -4,7 +4,7 @@
 
 
 
-    $query="SELECT linkObra FROM obras LIMIT 10"; // aqui verificamos si el alumno ya ha aplicado a dicha vacante , para no mostrar las ya aplicadas
+    $query="SELECT linkObra FROM obras WHERE confirmado=1 LIMIT 10 "; // aqui verificamos si el alumno ya ha aplicado a dicha vacante , para no mostrar las ya aplicadas
                               if(!($stmt= $conn-> prepare($query))){
                                    echo "Prepare failed: (" . $conn->errno . ") " . $conn->error;
                               }
