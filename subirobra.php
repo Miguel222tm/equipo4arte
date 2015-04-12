@@ -33,7 +33,7 @@ function generateCodigo($length = 22) {
 									
 										<h2>Arte y Cultura Contemporánea</h2>
 										<p>Alumnos del ITESM pueden usar esta sección solamente.</p>
-										</header>
+<p>Nota: al darle clic al botón se le mandará un correo a su bandeja de correo institucional para confirmar la obra de arte, con la finalidad de que solo los alumnos del ITESM suban imágenes y se mantenga control de ellas. </p>										</header>
 								
 									</div>
 									<?php   
@@ -79,7 +79,7 @@ function generateCodigo($length = 22) {
   $mail = new PHPMailer();  
  
 $mail->IsSMTP();  // telling the class to use SMTP
-$mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
+//$mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
 $mail->SMTPAuth = true; // authentication enabled
 $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for GMail
 $mail->Host = "smtp.gmail.com";
