@@ -79,14 +79,14 @@ function generateCodigo($length = 22) {
   $mail = new PHPMailer();  
  
 $mail->IsSMTP();  // telling the class to use SMTP
-//$mail->SMTPDebug = 2; // debugging: 1 = errors and messages, 2 = messages only
+$mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
 $mail->SMTPAuth = true; // authentication enabled
 $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for GMail
 $mail->Host = "smtp.gmail.com";
 $mail->Port = 465; // or 587
 $mail->IsHTML(true);
 $mail->Username = "arte.cultura.itesm@gmail.com"; // SMTP username
-$mail->Password = "arteycultura2015"; // SMTP password 
+$mail->Password = "arte2015"; // SMTP password 
 $mail->FromName = 'Arte y cultura'; 
 $mail->From     = "arte.cultura.itesm@gmail.com";  //sender
 $mail->AddAddress($_POST['matricula']."@itesm.mx");  //receiver
