@@ -53,34 +53,24 @@
                                     </div>
                                 </div><!-- /.box-header -->
                                 <div class="box-body table-responsive ">
-                                    <table class="table table-hover">
-                                        <tbody><tr>
-                                        	<th><strong>Matrícula </strong></th>
-                                            <th><strong>nombre Obra</strong></th>
-                                            <th><strong>fecha Obra</strong></th>
-                                            <th><strong>Soporte</strong></th>
-                                            <th><strong>técnica</strong></th>
-                                            <th><strong>corriente</strong></th>
-                                            <th><strong>Descripción</strong></th>
-                                            <th><strong>Imagen</strong></th>
-                                        </tr>
+                                    
                                       
                                             <?php  
 		foreach ($rows as $key => $value) {
-			echo "<tr>";
-				echo "<td><strong>".$value['matricula']."</strong></td> ";
-				echo "<td>". $value['nombreObra']."</td> ";
-				echo "<td>". $value['fechaObra']."</td> ";
-				echo "<td>". $value['soporte']."</td> ";
-				echo "<td>". $value['tecnica']."</td> ";
-				echo "<td>". $value['corriente']."</td> ";
-				echo "<td>". $value['descripcion']."</td> ";
-				echo "<td><a href='". $value['linkObra']."' >  Obra</a></td> ";
+				echo '----------------------------------------------------';
+				echo "<p><strong>Matrícula: </strong>".$value['matricula']."</p> ";
+				echo "<p><strong>nombre Alumno: </strong>".$value['nombreAlumno']."</p> ";
+				echo "<p><strong>Nombre de la Obra:</strong> ". $value['nombreObra']."</p> ";
+				echo "<p><strong> Fecha de la Obra: </strong>". $value['fechaObra']."</p> ";
+				echo "<p><strong> Soporte: </strong>". $value['soporte']."</p> ";
+				echo "<p><strong> Técnica: </strong>". $value['tecnica']."</p> ";
+				echo "<p><strong> Corriente: </strong>". $value['corriente']."</p> ";
+				echo "<p><strong> descripción:</strong> ". $value['descripcion']."</p> ";
+				echo "<p><strong>Link de la Obra:</strong> <a href='". $value['linkObra']."' >  Obra de Arte</a></p> ";
 
-				echo "</tr>";
-		}								?>
+						}								?>
                                         
-                                    </tbody></table>
+                                   
                                 </div><!-- /.box-body -->
                             </div><!-- /.box -->
                         </div>
